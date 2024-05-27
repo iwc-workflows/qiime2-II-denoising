@@ -21,7 +21,7 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2024-05-02T17:44:12.616472",
+            "datePublished": "2024-05-27T12:41:08.869616",
             "hasPart": [
                 {
                     "@id": "QIIME2-IIa-denoising-and-feature-table-creation-single-end.ga"
@@ -46,13 +46,13 @@
             },
             "mentions": [
                 {
-                    "@id": "#test_QIIME2-IIb denoising and feature table creation for paired ended data_1"
+                    "@id": "#test_IIa-denoising-se_1"
                 },
                 {
-                    "@id": "#test_QIIME2-IIa denoising and feature table creation for single ended data_1"
+                    "@id": "#test_IIb-denoising-pe_1"
                 }
             ],
-            "name": "qiime2-II-denoising/QIIME2-IIa denoising and feature table creation for single ended data"
+            "name": "qiime2-II-denoising/IIa-denoising-se"
         },
         {
             "@id": "ro-crate-metadata.json",
@@ -76,15 +76,15 @@
                     "@id": "#0009-0008-1496-1677"
                 },
                 {
-                    "@id": "#af8db618-5a0d-4768-a4b3-faffc05194dc"
+                    "@id": "#e2784b0e-083e-4a42-968a-13f5a650c4d5"
                 }
             ],
-            "name": "qiime2-II-denoising/QIIME2-IIa denoising and feature table creation for single ended data",
+            "name": "qiime2-II-denoising/IIa-denoising-se",
             "programmingLanguage": {
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/qiime2-II-denoising",
-            "version": "0.1"
+            "version": "0.2"
         },
         {
             "@id": "#galaxy",
@@ -104,7 +104,7 @@
             "name": "Debjyoti Ghosh"
         },
         {
-            "@id": "#af8db618-5a0d-4768-a4b3-faffc05194dc",
+            "@id": "#e2784b0e-083e-4a42-968a-13f5a650c4d5",
             "@type": "Organization",
             "name": "Helmholtz-Zentrum f\u00fcr Umweltforschung - UFZ"
         },
@@ -113,25 +113,25 @@
             "@type": "File"
         },
         {
-            "@id": "#test_QIIME2-IIa denoising and feature table creation for single ended data_1",
+            "@id": "#test_IIa-denoising-se_1",
             "@type": "TestSuite",
             "definition": {
                 "@id": "QIIME2-IIa-denoising-and-feature-table-creation-single-end-tests.yml"
             },
             "instance": [
                 {
-                    "@id": "#test_QIIME2-IIa denoising and feature table creation for single ended data_1_1"
+                    "@id": "#test_IIa-denoising-se_1_1"
                 }
             ],
             "mainEntity": {
                 "@id": "QIIME2-IIa-denoising-and-feature-table-creation-single-end.ga"
             },
-            "name": "test_QIIME2-IIa denoising and feature table creation for single ended data_1"
+            "name": "test_IIa-denoising-se_1"
         },
         {
-            "@id": "#test_QIIME2-IIa denoising and feature table creation for single ended data_1_1",
+            "@id": "#test_IIa-denoising-se_1_1",
             "@type": "TestInstance",
-            "name": "test_QIIME2-IIa denoising and feature table creation for single ended data_1_1",
+            "name": "test_IIa-denoising-se_1_1",
             "resource": "repos/iwc-workflows/qiime2-II-denoising/actions/workflows/wftest.yml",
             "runsOn": {
                 "@id": "https://w3id.org/ro/terms/test#GithubService"
@@ -155,7 +155,7 @@
             "conformsTo": {
                 "@id": "https://w3id.org/ro/terms/test#PlanemoEngine"
             },
-            "engineVersion": ">=0.75.22"
+            "engineVersion": ">=0.75.23"
         },
         {
             "@id": "https://w3id.org/ro/terms/test#PlanemoEngine",
@@ -177,41 +177,41 @@
                     "@id": "#0009-0008-1496-1677"
                 },
                 {
-                    "@id": "#9c94fa97-b459-410e-b703-c9cf4469304b"
+                    "@id": "#1ac4b03e-67ad-4111-9926-3c09ec920642"
                 }
             ],
-            "name": "qiime2-II-denoising/QIIME2-IIb denoising and feature table creation for paired ended data",
+            "name": "qiime2-II-denoising/IIb-denoising-pe",
             "programmingLanguage": {
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/qiime2-II-denoising",
-            "version": "0.1"
+            "version": "0.2"
         },
         {
-            "@id": "#9c94fa97-b459-410e-b703-c9cf4469304b",
+            "@id": "#1ac4b03e-67ad-4111-9926-3c09ec920642",
             "@type": "Organization",
             "name": "Helmholtz-Zentrum f\u00fcr Umweltforschung - UFZ"
         },
         {
-            "@id": "#test_QIIME2-IIb denoising and feature table creation for paired ended data_1",
+            "@id": "#test_IIb-denoising-pe_1",
             "@type": "TestSuite",
             "definition": {
                 "@id": "QIIME2-IIb-denoising-and-feature-table-creation-paired-end-tests.yml"
             },
             "instance": [
                 {
-                    "@id": "#test_QIIME2-IIb denoising and feature table creation for paired ended data_1_1"
+                    "@id": "#test_IIb-denoising-pe_1_1"
                 }
             ],
             "mainEntity": {
                 "@id": "QIIME2-IIb-denoising-and-feature-table-creation-paired-end.ga"
             },
-            "name": "test_QIIME2-IIb denoising and feature table creation for paired ended data_1"
+            "name": "test_IIb-denoising-pe_1"
         },
         {
-            "@id": "#test_QIIME2-IIb denoising and feature table creation for paired ended data_1_1",
+            "@id": "#test_IIb-denoising-pe_1_1",
             "@type": "TestInstance",
-            "name": "test_QIIME2-IIb denoising and feature table creation for paired ended data_1_1",
+            "name": "test_IIb-denoising-pe_1_1",
             "resource": "repos/iwc-workflows/qiime2-II-denoising/actions/workflows/wftest.yml",
             "runsOn": {
                 "@id": "https://w3id.org/ro/terms/test#GithubService"
@@ -227,7 +227,7 @@
             "conformsTo": {
                 "@id": "https://w3id.org/ro/terms/test#PlanemoEngine"
             },
-            "engineVersion": ">=0.75.22"
+            "engineVersion": ">=0.75.23"
         }
     ]
 }
