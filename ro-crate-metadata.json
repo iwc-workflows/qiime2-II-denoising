@@ -21,7 +21,7 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2024-11-26T15:24:27.948112",
+            "datePublished": "2026-10-18T09:43:18.350256",
             "hasPart": [
                 {
                     "@id": "QIIME2-IIa-denoising-and-feature-table-creation-single-end.ga"
@@ -46,10 +46,10 @@
             },
             "mentions": [
                 {
-                    "@id": "#test_IIa-denoising-se_1"
+                    "@id": "#test_IIb-denoising-pe_1"
                 },
                 {
-                    "@id": "#test_IIb-denoising-pe_1"
+                    "@id": "#test_IIa-denoising-se_1"
                 }
             ],
             "name": "qiime2-II-denoising/IIa-denoising-se"
@@ -76,7 +76,7 @@
                     "@id": "#0009-0008-1496-1677"
                 },
                 {
-                    "@id": "#9295b471-bbec-4e17-b2c1-10724f614515"
+                    "@id": "#dc4cbb75-d26f-428b-8702-cd5eae103bba"
                 }
             ],
             "name": "qiime2-II-denoising/IIa-denoising-se",
@@ -84,7 +84,7 @@
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/qiime2-II-denoising",
-            "version": "0.3"
+            "version": "0.4"
         },
         {
             "@id": "#galaxy",
@@ -104,7 +104,7 @@
             "name": "Debjyoti Ghosh"
         },
         {
-            "@id": "#9295b471-bbec-4e17-b2c1-10724f614515",
+            "@id": "#dc4cbb75-d26f-428b-8702-cd5eae103bba",
             "@type": "Organization",
             "name": "Helmholtz-Zentrum f\u00fcr Umweltforschung - UFZ"
         },
@@ -155,7 +155,7 @@
             "conformsTo": {
                 "@id": "https://w3id.org/ro/terms/test#PlanemoEngine"
             },
-            "engineVersion": ">=0.75.26"
+            "engineVersion": ">=0.75.47"
         },
         {
             "@id": "https://w3id.org/ro/terms/test#PlanemoEngine",
@@ -177,7 +177,7 @@
                     "@id": "#0009-0008-1496-1677"
                 },
                 {
-                    "@id": "#3f809a7a-5564-4934-a2bd-dd0147ff07de"
+                    "@id": "#ad07e3d7-3a6c-4076-a9ae-29d1343a014b"
                 }
             ],
             "name": "qiime2-II-denoising/IIb-denoising-pe",
@@ -185,10 +185,10 @@
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/qiime2-II-denoising",
-            "version": "0.3"
+            "version": "0.4"
         },
         {
-            "@id": "#3f809a7a-5564-4934-a2bd-dd0147ff07de",
+            "@id": "#ad07e3d7-3a6c-4076-a9ae-29d1343a014b",
             "@type": "Organization",
             "name": "Helmholtz-Zentrum f\u00fcr Umweltforschung - UFZ"
         },
@@ -227,7 +227,7 @@
             "conformsTo": {
                 "@id": "https://w3id.org/ro/terms/test#PlanemoEngine"
             },
-            "engineVersion": ">=0.75.26"
+            "engineVersion": ">=0.75.47"
         }
     ]
 }
